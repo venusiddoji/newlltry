@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Properties\**" />
+    <EmbeddedResource Remove="Properties\**" />
+    <None Remove="Properties\**" />
+  </ItemGroup>
+
+ <PropertyGroup>
+    <PackageId>LoanEng</PackageId>
+    <Authors>Venu</Authors>
+    <Company>AadyaIT</Company>
+    <PackageDescription>Loan Calculation</PackageDescription>
+    <RepositoryUrl>https://github.com/venusiddoji/newlltry</RepositoryUrl>
+  </PropertyGroup>
+</Project>
